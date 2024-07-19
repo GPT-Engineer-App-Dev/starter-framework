@@ -1,4 +1,4 @@
-import { Home, Info, Contact } from "lucide-react";
+import { Home, Info, Mail } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
@@ -19,7 +19,7 @@ export const navItems = [
   {
     title: "Contact",
     to: "/contact",
-    icon: <Contact className="h-4 w-4" />,
+    icon: <Mail className="h-4 w-4" />,
     page: <Contact />,
   },
 ];
